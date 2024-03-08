@@ -1,0 +1,71 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #DBDCDA;
+}
+
+.navbar-brand {
+    color: #ED8045;
+    font-size: 25px;
+    font-family: "Protest Riot", sans-serif;
+}
+
+.navbar-brand:hover{
+    color: #AC502E;
+}
+        
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-nav a {
+    color: black;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.navbar-nav a:hover {
+    color:#AC502E ;
+}
+.search-box {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    background-color: white;
+}
+.search-btn {
+    background-color: #ED8045;
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+.search-btn:hover{
+    background-color: #AC502E;
+}
+
+/*home*/
+.fs-h2{
+    font-weight: 700;
+}
+.fs-p{
+    
+    font-size:20px ;
+}
+
+.img-div{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transform: scale(1.05);
+}
+ .small-image {   
+    cursor: pointer;
+    transition: transform 0.3s;     
+}
+
+.small-image:hover {
+    transform: scale(1.05);
+}
+
